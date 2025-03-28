@@ -7,14 +7,18 @@ const Search = () => {
 
   return (
     <>
-      <Container  style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        marginTop: "20px",
-      }}>
+      <Container
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          marginTop: "20px",
+        }}
+      >
         <form action="#" onSubmit={(e) => e.preventDefault()}>
-          <Typography style={{ fontWeight: "bold", marginBottom: "10px" }}>FIND YOUR FAVOURITE MOVIE</Typography>
+          <Typography style={{ fontWeight: "bold", marginBottom: "10px" }}>
+            FIND YOUR FAVOURITE MOVIE
+          </Typography>
           <TextField
             type="text"
             variant="outlined"
